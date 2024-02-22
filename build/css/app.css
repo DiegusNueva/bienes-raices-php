@@ -330,8 +330,8 @@ p {
 }
 
 .contenedor {
-  width: 95%;
-  max-width: 120rem;
+  width: 100%;
+  max-width: 130rem;
   margin: 0 auto;
 }
 
