@@ -35,10 +35,12 @@ incluirTemplate('header', $inicio = true);
     ?>
 
 
-    <div class="alinear-derecha">
+    
+</section>
+
+<div class="alinear-derecha">
         <a href="anuncios.php" class="boton-verde">Ver Todas</a>
     </div>
-</section>
 
 <section class="imagen-contacto">
     <h2>Encuentra la casa de tus sueños</h2>

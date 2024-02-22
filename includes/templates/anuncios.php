@@ -45,8 +45,9 @@ $resultado = mysqli_query($db, $query);
                     Ver Propiedad
                 </a>
             </div><!--.contenido-anuncio-->
-        <?php endwhile; ?>
+        
         </div><!--anuncio-->
+        <?php endwhile; ?>
 
         <?php
         //Cerrar la  conexión
