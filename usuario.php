@@ -12,7 +12,6 @@ $password = "123456";
 
 $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
-
 //var_dump($passwordHash);
 
 // Query para crear el usuario
