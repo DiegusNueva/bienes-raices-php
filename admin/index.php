@@ -1,5 +1,12 @@
 <?php
 
+require '../includes/funciones.php';
+
+$auth = estaAutenticado();
+
+if(!$auth){
+    header('Location: /bienesraices/');
+}
 
 
 // Importar la conexión
@@ -43,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 }
 
 // Incluye un template
-require '../includes/funciones.php';
+
 incluirTemplate('header');
 
 ?>
